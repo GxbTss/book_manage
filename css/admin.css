@@ -1,0 +1,66 @@
+@charset "utf-8";
+body{ color:#333; font-size:12px;background-color:#f2f9fd;}
+/*header部分*/
+.header{height: 70px;overflow: hidden;background: url(../img/bg.jpg) no-repeat 0 -1000px;}
+.logo{float: left;color: #fff;line-height: 45px;}
+.logo h1{margin: 0;padding-left: 20px;font-size: 20px;height: 70px;line-height: 70px;}
+.logo img{float: left;margin-right: 10px;margin-top: 10px; border-radius: 50%;}
+.header-l{float: left;margin-top:17px; margin-left:15px;}
+.header-l .button{display: inline-block;margin-top: 5px;text-decoration: none;}
+.header-l .button span{display: inline-block;font-size:12px;padding:8px 15px;font-weight: normal;}
+.header-l .button span i{margin-right: 5px;}
+/*left部分*/
+.leftnav{width: 180px;height: 100%;position:fixed; top:70px; left:0px;}
+.leftnav-title { height:50px; background:url(../img/bg.jpg) no-repeat 0 -1000px;  color:#FFF; padding-left:22px;  font-size:14px; line-height:50px;}
+.leftnav-title span{ margin-right:10px;}
+.leftnav h2{ margin: 10px 0;padding:10px 0 0 22px; transition:all .1s ease-in-out; display:block; cursor:pointer; font-weight:bold; font-size:14px; border-top:1px solid #b5cfd9;}
+.leftnav h2.on{ color:#09c;}
+.leftnav .border-bottom{ border-bottom:1px solid #b5cfd9;}
+.leftnav h2 span{ margin-right:10px;}
+.leftnav h2:hover{ color:#09c;}
+.leftnav ul {display:none; border-top:1px solid #b5cfd9; padding:5px 0; opacity:1;}
+.leftnav ul li{ list-style-type:none;  }
+.leftnav ul li a{ display:block;padding-left:30px;line-height:30px; }
+.leftnav ul li span{ margin-right:8px;}
+.leftnav ul li a{color: #333;}
+.leftnav ul li a:hover,.leftnav ul li a.on{ color:#09c;}
+/*right部分*/
+.admin{background:#fff;position:fixed;border-left:solid 1px #b5cfd9;right:0;bottom:0;top:110px;
+	left:180px;overflow:auto; border-top:1px solid #b5cfd9;}
+.bread{ margin-left:190px; margin-top:12px;}
+.bread li{ float:left;list-style: none;}
+.bread li:after{content: "\002f";padding: 0 8px;color: #ddd;}
+.bread li i{margin-right: 5px;}
+.bread li a{color: #333;text-decoration: none;}
+.bread li a:hover{color: #0ae;}
+/*图书部分*/
+#content{border: 1px solid #999;margin: 10px;padding: 0 0 30px 0;border-radius: 10px}
+#add-book{margin: 10px;padding:5px;border-bottom: solid 1px #b5cfd9;color:#666;font-size: 14px;font-weight: bold;}
+#addbook{border-radius: 20px;padding: 10px;}
+#addbook .addbook-item{width: 300px;}
+#addbook .add{width: 100px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

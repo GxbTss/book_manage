@@ -4,6 +4,13 @@
 	<meta charset="UTF-8">
 	<title>登录页面</title>
 	<link rel="stylesheet" href="css/main.css">
+	<script type="text/javascript">
+		window.onload=function(){
+			document.getElementById("yzm").onclick=function(){
+				this.src="yzm.php";
+			}
+		}
+	</script>
 </head>
 <body>
 	<div class="container">
@@ -37,7 +44,7 @@
 					</div>
 					<div class="login_group">
 						<label for="yzm" >验证码</label>
-						<input type="text" placeholder="请输入验证码" name="yzm">
+						<input type="text" placeholder="请输入验证码" name="yzm"><img src="yzm.php" alt="" id="yzm">
 					</div>
 					<div class="login_group">
 						<p class="reg"><a href="reg.php">注册账号</a></p>

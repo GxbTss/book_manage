@@ -26,7 +26,7 @@
 				<img src="img/theme-pic1.jpg" alt="">
 			</div>
 			<div class="box_login">
-				<form action="login_chuli.php" method="post" name="login">
+				<form action="reg_chuli.php" method="post" name="reg">
 					<div class="login_group">
 						<label for="userName">注册账号</label>
 						<input type="text" placeholder="请输入账号" name="userName">
@@ -36,14 +36,10 @@
 						<input type="password" placeholder="请输入密码" name="pwd">
 					</div>
 					<div class="login_group">
-						<label for="yzm" >验证码</label>
-						<input type="text" placeholder="请输入验证码" name="yzm">
+						<p class="reg"><a href="login.php">已有账号,请登录！</a></p>
 					</div>
 					<div class="login_group">
-						<p class="reg"><a href="reg.php">注册账号</a></p>
-					</div>
-					<div class="login_group">
-						<input type="submit" value="登录">
+						<input type="submit" value="注册">
 					</div>
 				</form>
 			</div>
