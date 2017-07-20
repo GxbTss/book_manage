@@ -28,19 +28,15 @@
 			<strong><span class="icon-list"></span>菜单列表</strong>
 		</div>
 		<h2 style="margin-top: 0"><span class="glyphicon glyphicon-user"></span>基础设置</h2>
-		<ul style="display: block;">
+		<ul>
 			<li><a href="error.php"><span class="glyphicon glyphicon-triangle-right"></span>网站设置</a></li>
-			<li><a href="index.php"><span class="glyphicon glyphicon-triangle-right"></span>修改密码</a></li>
-			<li><a href="index-1.php"><span class="glyphicon glyphicon-triangle-right"></span>管理员管理</a></li>
-			<li><a href=""><span class="glyphicon glyphicon-triangle-right"></span>留言管理</a></li>
+			<li><a href="update_pwd.php"><span class="glyphicon glyphicon-triangle-right"></span>修改密码</a></li>
+			<li><a href="admin.php"><span class="glyphicon glyphicon-triangle-right"></span>管理员管理</a></li>
 		</ul>
 		<h2><span class="glyphicon glyphicon-edit"></span>图书管理</h2>
 		<ul>
 			<li><a href="insert.php"><span class="glyphicon glyphicon-triangle-right"></span>添加图书</a></li>
-			<li><a href=""><span class="glyphicon glyphicon-triangle-right"></span>查询图书</a></li>
-			<li><a href=""><span class="glyphicon glyphicon-triangle-right"></span>修改图书</a></li>
-			<li><a href=""><span class="glyphicon glyphicon-triangle-right"></span></a></li>
-			<li><a href=""><span class="glyphicon glyphicon-triangle-right"></span></a></li>
+			<li><a href="show.php"><span class="glyphicon glyphicon-triangle-right"></span>查询图书</a></li>
 		</ul>
 	</div>
 	<script type="text/javascript">

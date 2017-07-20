@@ -39,8 +39,9 @@ body{ color:#333; font-size:12px;background-color:#f2f9fd;}
 #addbook{border-radius: 20px;padding: 10px;}
 #addbook .addbook-item{width: 300px;}
 #addbook .add{width: 100px;}
-
-
+/**/
+#mt20{margin-top: 20px;}
+#mt20 .bookpic img{width: 30px;}
 
 
 
